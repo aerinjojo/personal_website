@@ -28,7 +28,20 @@ p {
   margin: 10px;
   font-family: 'AppleGaramond', sans-serif;
 }
+i {
+  font-style: italic;
+  margin-left: 30px;
+  font-family: 'AppleGaramond', sans-serif;
+}
+.figure-container {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  align-items: center; /* Adjust as needed */
+}
 
+.figure-container figure {
+  margin: 10px; /* Adjust as needed */
+}
 #logo-div
 {
   width:100%;
